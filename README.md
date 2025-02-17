@@ -8,6 +8,8 @@ This project provides tools for downloading and processing Quran data. It includ
 - Extract chapter names from a Quran data file (`get_chapters_names.py`).
 - Build a SQLite database from downloaded Quran data and chapter names (`build_quran_db.py`).
 
+Also,  In addition of these three scripts there are.
+
 `config.py` a file that contains configurations shared between scripts.
 
 `quran_data` a directory that contains downloaded JSON files of Quran pages in different editions (e.g., `ara-quransimple`, `ara-quranuthmanienc`, `ara-quranuthmanihaf`, `ara-quranuthmanihaf1`).
@@ -95,5 +97,5 @@ AGPL-3.0 License
 
 This project is open-source and available under the AGPL-3.0 License. See the `LICENSE` file for more details.
 
-## Credets
+## Credits
 This project totally build with a help of API from brother's repo [Fawaz Ahmed](https://github.com/fawazahmed0/quran-api.git)
