@@ -9,9 +9,13 @@ This project provides tools for downloading and processing Quran data. It includ
 - Build a SQLite database from downloaded Quran data and chapter names (`build_quran_db.py`).
 
 The `quran_data` directory downloaded JSON files of Quran pages in different editions (e.g., `ara-quransimple`, `ara-quranuthmanienc`, `ara-quranuthmanihaf`, `ara-quranuthmanihaf1`).
+
 The `databases` directory contains created SQLite files from downloaded Quran pages in different editions (e.g., `ara-quransimple`, `ara-quranuthmanienc`, `ara-quranuthmanihaf`, `ara-quranuthmanihaf1`).
+
 `quran_chapters_names.json` contains chapter names in JSON format.
+
 `quran_info.json` contains information about the Holy Quran (e.g.. chapters and its info, verses and its text & count, pages and maqraas etc)
+
 `uthmanic-hafs-ver13.ttf` Use It to display both "ara-quranuthmanienc" & "ara-quranuthmanihaf" correctly.
 
 ## Installation
@@ -80,7 +84,7 @@ To add more Quran editions You can :
  - Then run `get_quran_pages.py` to download the edition JSON files. Also, Run `build_quran_db.py` if You want to get a database of this edition.
 
 
-If You want to get all avilable editions:
+If You want to get all available editions:
  - Just copy the "BASE_URL" from `config.py` then append "editions.json" at the end. Then paste It in the browser and press enter.
 
 ## License
