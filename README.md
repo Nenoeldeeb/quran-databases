@@ -8,13 +8,15 @@ This project provides tools for downloading and processing Quran data. It includ
 - Extract chapter names from a Quran data file (`get_chapters_names.py`).
 - Build a SQLite database from downloaded Quran data and chapter names (`build_quran_db.py`).
 
-The `quran_data` directory downloaded JSON files of Quran pages in different editions (e.g., `ara-quransimple`, `ara-quranuthmanienc`, `ara-quranuthmanihaf`, `ara-quranuthmanihaf1`).
+`config.py` a file that contains configurations shared between scripts.
 
-The `databases` directory contains created SQLite files from downloaded Quran pages in different editions (e.g., `ara-quransimple`, `ara-quranuthmanienc`, `ara-quranuthmanihaf`, `ara-quranuthmanihaf1`).
+`quran_data` a directory that contains downloaded JSON files of Quran pages in different editions (e.g., `ara-quransimple`, `ara-quranuthmanienc`, `ara-quranuthmanihaf`, `ara-quranuthmanihaf1`).
 
-`quran_chapters_names.json` contains chapter names in JSON format.
+`databases` a directory that contains created SQLite files from downloaded Quran pages in different editions (e.g., `ara-quransimple`, `ara-quranuthmanienc`, `ara-quranuthmanihaf`, `ara-quranuthmanihaf1`).
 
-`quran_info.json` contains information about the Holy Quran (e.g.. chapters and its info, verses and its text & count, pages and maqraas etc)
+`quran_chapters_names.json` a file that contains chapter names in JSON format.
+
+`quran_info.json` a file contains information about the Holy Quran (e.g.. chapters and its info, verses and its text & count, pages and maqraas etc)
 
 `uthmanic-hafs-ver13.ttf` Use It to display both "ara-quranuthmanienc" & "ara-quranuthmanihaf" correctly.
 
